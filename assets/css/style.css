@@ -1,0 +1,144 @@
+body {
+    background-image: url("http://techware.pk/wp-content/uploads/2014/07/New-Website-Background3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+label {
+		display: block;
+		width: 150px;
+		float: left;
+}
+
+ul#horiz_menu { 
+	width : 800px;
+	height : 40px;
+	list-style-type : none;
+	margin :left;
+	padding : 0;
+	background-color : #99ddff;
+	border : 2px black;
+}
+
+ul#horiz_menu li {
+	padding : 0 0.9em;  
+	line-height : 55px;
+}
+
+ul#horiz_menu li.bouton_menu {
+	float : right;
+}
+
+img {
+	max-width: 28px;
+}
+
+ul#horiz_menu a {
+	color : black;
+	text-decoration : none;
+	padding : 0 0.5em; 
+	font :  0.90em "Georgia";
+}
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:9px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.boutonCont {
+	width:25px;
+	height:25px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+}
+
+
+	.tableau {display: table;border-spacing: 0.5rem;border-collapse: collapse;}
+ 
+table {
+
+border: medium solid #99ddff;
+border-collapse: collapse;
+width: 50%;
+}
+th {
+font-family: monospace;
+border: thin solid #99ddff;
+width: 50%;
+padding: 5px;
+background-color:#99ddff;
+}
+td {
+font-family: sans-serif;
+border: thin solid #99ddff;
+width: 50%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}
+td.noborder {
+border: thin solid white;
+}
+
+
+.cell {display: table-cell;padding: 0.5rem; border: 1px solid #999;}
+.row {display: table-row;}
+.row:nth-child(odd) {background: #e5f1f4;}
+.row:nth-child(even) {background: #f8fbfc;}
+.row:hover {background: #ecfbd4;cursor:pointer;} 
+.col {display: table-column;}
+.body {display: table-row-group}
+.colgroupe {display: table-column-group;}
+.footer {display: table-footer-group;font-weight:bold;background-color:#eee;}
+.header {background-color:#4a98af;color:#ffffff;display: table-header-group;font-weight:bold;text-align:center;}
+.legende {display: table-caption;caption-side: top;background-color:#eee;}
+
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
